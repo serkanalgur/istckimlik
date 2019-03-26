@@ -26,6 +26,11 @@
     "url": "https://github.com/serkanalgur/istckimlik/issues"
   },
   "homepage": "https://github.com/serkanalgur/istckimlik#readme",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0",
+    "yarn": "^0.13.0"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "jest": "^24.5.0",

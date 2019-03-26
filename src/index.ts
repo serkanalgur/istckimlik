@@ -1,8 +1,8 @@
 /**
-* @Method: Returns the plural form of any noun.
-* @Param {string}
-* @Return {boolean}
-*/
+ * @Method: Returns the plural form of any noun.
+ * @Param {string}
+ * @Return {boolean}
+ */
 
 export function isTCKimlik(TurkishID: number): boolean {
 	// Convert to string for for loops etc.

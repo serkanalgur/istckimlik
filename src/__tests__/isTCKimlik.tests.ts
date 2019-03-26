@@ -1,6 +1,6 @@
 import { isTCKimlik } from '../index';
 
-// All Turkish National ID Numbers are auto generated for testing
+// All Turkish Identification Numbers are auto generated for testing
 
 test('TCKimlik Should be True', () => {
 	expect(isTCKimlik(34123889266)).toBe(true);

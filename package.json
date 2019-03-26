@@ -1,7 +1,7 @@
 {
   "name": "istckimlik",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool for validate Turkish Identification Number",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {

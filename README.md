@@ -1,6 +1,6 @@
 # isTCKimlik
 
-A tool for validate Turkish National ID Number
+A tool for validate Turkish Identification Number
 
 ## Installation
 
@@ -13,12 +13,12 @@ yarn add istckimlik
 
 ## Usage
 
-You can import your project and ask script is Turkish National ID Number is true or false
+You can import your project and ask script is Turkish Identification Number is true or false
 
 ```js
 import {isTCKimlik} from 'istckimlik'
 
 let checkTC = isTCKimlik(34123889266);
 // function will return true or false P.S you need to give variable as number.
-// second P.S : this Turkish national ID Number is auto generated
+// second P.S : this Turkish Identification Number is auto generated
 ```

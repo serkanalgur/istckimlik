@@ -1,6 +1,6 @@
 {
   "name": "istckimlik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for validate Turkish Identification Number",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,13 @@
     "type": "git",
     "url": "git+https://github.com/serkanalgur/istckimlik.git"
   },
-  "keywords": ["tc kimlik","doğrulama","validate","turkish identification","validator"],
+  "keywords": [
+    "tc kimlik",
+    "doğrulama",
+    "validate",
+    "turkish identification",
+    "validator"
+  ],
   "author": "Serkan Algur <kaisercrazy@gmail.com> (https://github.com/serkanalgur)",
   "license": "ISC",
   "bugs": {

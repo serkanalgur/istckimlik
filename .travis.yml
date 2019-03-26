@@ -1,6 +1,6 @@
 language: nodejs
 node_js :
-  - stable
+  - "8"
 before_script:
   - npm install
   - npm run build

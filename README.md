@@ -16,9 +16,9 @@ yarn add istckimlik
 You can import your project and ask script is Turkish Identification Number is true or false
 
 ```js
-import {isTCKimlik} from 'istckimlik'
+var kontrol = require('istckimlik')
 
-let checkTC = isTCKimlik(34123889266);
+console.log(kontrol.isTCKimlik(34123889266));
 // function will return true or false P.S you need to give variable as number.
 // second P.S : this Turkish Identification Number is auto generated
 ```

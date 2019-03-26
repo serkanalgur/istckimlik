@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/serkanalgur/istckimlik.git"
   },
-  "keywords": [],
+  "keywords": ["tc kimlik","doğrulama","validate","turkish identification","validator"],
   "author": "Serkan Algur <kaisercrazy@gmail.com> (https://github.com/serkanalgur)",
   "license": "ISC",
   "bugs": {

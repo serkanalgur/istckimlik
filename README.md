@@ -1,4 +1,4 @@
-# isTCKimlik
+# isTCKimlik [![Build Status](https://travis-ci.org/serkanalgur/istckimlik.svg?branch=master)](https://travis-ci.org/serkanalgur/istckimlik)
 
 A tool for validate Turkish Identification Number
 

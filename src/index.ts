@@ -1,6 +1,6 @@
 /**
  * @Method: Checks Turkish Identification Number is true or false
- * @Param {string}
+ * @Param {number}
  * @Return {boolean}
  */
 

@@ -48,8 +48,5 @@
   },
   "files": [
     "lib/**/*"
-  ],
-  "dependencies": {
-    "npm-check-updates": "^3.1.13"
-  }
+  ]
 }

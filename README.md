@@ -1,4 +1,4 @@
-# isTCKimlik [![Build Status](https://travis-ci.org/serkanalgur/istckimlik.svg?branch=master)](https://travis-ci.org/serkanalgur/istckimlik) ![npm](https://img.shields.io/npm/dt/istckimlik) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/istckimlik)
+# isTCKimlik ![npm](https://img.shields.io/npm/dt/istckimlik) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/istckimlik)
 
 A tool for validate Turkish Identification Number
 

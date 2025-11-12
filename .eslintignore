@@ -1,0 +1,6 @@
+node_modules/
+lib/
+dist/
+**/__tests__/**
+**/*.test.ts
+**/*.spec.ts

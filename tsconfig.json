@@ -1,11 +1,19 @@
 {
-	"compilerOptions": {
-		"target": "es5",
-		"module": "commonjs",
-		"declaration": true,
-		"outDir": "./lib",
-		"strict": true
-	},
-	"include": ["src"],
-	"exclude": ["node_modules", "**/__tests__/*"]
-  }
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*", "**/*.test.ts"]
+}

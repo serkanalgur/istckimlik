@@ -13,12 +13,35 @@ yarn add istckimlik
 
 ## Usage
 
-You can import your project and ask script is Turkish Identification Number is true or false
+### CommonJS
 
 ```js
-var kontrol = require('istckimlik')
+const { isTCKimlik } = require('istckimlik');
 
-console.log(kontrol.isTCKimlik(34123889266));
-// function will return true or false P.S you need to give variable as number.
-// second P.S : this Turkish Identification Number is auto generated
+// Pass a number to validate
+const isValid = isTCKimlik(48265878901);
+console.log(isValid); // returns true or false
 ```
+
+### ES Module / TypeScript
+
+```ts
+import { isTCKimlik } from 'istckimlik';
+
+// The function accepts a number and returns a boolean
+const isValid: boolean = isTCKimlik(48265878901);
+console.log(isValid); // returns true or false
+```
+
+## Validation Rules
+
+A valid Turkish ID must meet these criteria:
+
+- Must be exactly 11 digits
+- Cannot start with 0
+- Must pass the checksum validation (mod 10 checks)
+
+## Notes
+
+- Input must be a **number** type
+- Returns `true` if the ID is valid, `false` otherwise

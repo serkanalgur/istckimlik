@@ -34,9 +34,9 @@
   },
   "homepage": "https://github.com/serkanalgur/istckimlik#readme",
   "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0",
-    "yarn": "^0.13.0"
+    "node": ">= 18.0.0",
+    "npm": ">= 11.5.1",
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
@@ -51,5 +51,8 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }
